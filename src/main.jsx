@@ -7,6 +7,7 @@ import Bttable from './cdnnav.jsx'
 import Ajith from './myprofile.jsx'
 import Development from './about.jsx'
 import Properties from './properties.jsx'
+import Mystate from './Mystate.jsx'
 
 
 
@@ -17,12 +18,12 @@ import Properties from './properties.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-     
-      <Ajith/>
+      {/* <Ajith/>
       <Development/>
        < Bootstrap/>
       <Bttable/>
-      <Properties/>
+      <Properties/> */}
+      <Mystate/>
   </StrictMode>,
 )
 
